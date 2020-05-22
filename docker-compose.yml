@@ -1,0 +1,30 @@
+version: '3.4'
+
+services:
+  lswebapidappermysql:
+    image: ${DOCKER_REGISTRY-}lswebapidappermysql
+    build:
+      context: .
+      dockerfile: LSWebApiDapperMySql/Dockerfile
+
+  mysql-host:
+    image: mysql
+    volumes:
+      - data_base:/var/lib/mysql
+
+    environment:
+      MYSQL_ROOT_PASSWORD: "&HCUna!i^6GE"
+      MYSQL_DATABASE: "Loja"
+    ports:
+      - "3306:3306"
+    networks:
+      - databases
+
+
+volumes:  
+  data_base:
+
+
+networks: 
+    databases:
+      driver: bridge

@@ -1,0 +1,24 @@
+networks:
+  databases:
+    driver: bridge
+services:
+  lswebapidappermysql:
+    build:
+      context: D:\Projetos\SalomaoDev\LSWebApiDapperMySql
+      dockerfile: LSWebApiDapperMySql/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: lswebapidappermysql
+    ports:
+    - target: 80
+  mysql-host:
+    environment:
+      MYSQL_DATABASE: Loja
+      MYSQL_ROOT_PASSWORD: '&HCUna!i^6GE'
+    image: mysql
+    networks:
+      databases: {}
+    ports:
+    - published: 3306
+      target: 3306
+version: '3.4'

@@ -6230,7 +6230,8 @@
       "Dapper >= 2.0.35",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "MySql.Data >= 8.0.20",
-      "Swashbuckle.AspNetCore >= 5.4.1"
+      "Swashbuckle.AspNetCore >= 5.4.1",
+      "Swashbuckle.AspNetCore.Swagger >= 5.4.1"
     ]
   },
   "packageFolders": {
@@ -6288,6 +6289,10 @@
             "version": "[8.0.20, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[5.4.1, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[5.4.1, )"
           }
