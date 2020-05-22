@@ -1,0 +1,9 @@
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.csprojAssemblyReference.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.AssemblyInfoInputs.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.AssemblyInfo.cs
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.RazorTargetAssemblyInfo.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\staticwebassets\LSWebApiDapperMySql.StaticWebAssets.Manifest.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\staticwebassets\LSWebApiDapperMySql.StaticWebAssets.xml
