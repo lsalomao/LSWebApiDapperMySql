@@ -1,3 +1,6 @@
+networks:
+  databases:
+    driver: bridge
 services:
   lswebapidappermysql:
     build:
@@ -7,5 +10,17 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
     image: lswebapidappermysql
     ports:
-    - target: 80
+    - published: 9090
+      target: 80
+  mysql-host:
+    environment:
+      MYSQL_DATABASE: Loja
+      MYSQL_ROOT_PASSWORD: '123456'
+    image: mysql
+    networks:
+      databases: {}
+    volumes:
+    - data_base:/var/lib/mysql:rw
 version: '3.4'
+volumes:
+  data_base: {}

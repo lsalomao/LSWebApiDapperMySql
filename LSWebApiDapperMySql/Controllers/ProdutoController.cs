@@ -1,5 +1,7 @@
-﻿using LSWebApiDapperMySql.Domain.Entity;
+﻿using LSWebApiDapperMySql.Domain;
+using LSWebApiDapperMySql.Domain.Entity;
 using LSWebApiDapperMySql.Domain.Repository;
+using LSWebApiDapperMySql.Domain.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,8 +14,11 @@ namespace LSWebApiDapperMySql.Controllers
     {
         readonly IProdutoRepository produtoRepository;
 
-        public ProdutoController(IProdutoRepository produtoRepository)
+        readonly IProdutoServices produtoService;
+
+        public ProdutoController(IProdutoServices produtoService, IProdutoRepository produtoRepository)
         {
+            this.produtoService = produtoService;
             this.produtoRepository = produtoRepository;
         }
 
@@ -70,24 +75,16 @@ namespace LSWebApiDapperMySql.Controllers
         {
             try
             {
-                produtoRepository.Inserir(produto);
+                var result = produtoService.Inserir(produto);
 
-                //var rng = new Random();
-
-                //for (int i = 0; i < 1000; i++)
-                //{
-                //    var produto1 = new Produto
-                //    {
-                //        Marca = Marcas[rng.Next(Marcas.Length)],
-                //        //Nome = $" {Produtos[rng.Next(Produtos.Length)]} - {i * 5}",
-                //        Preco = rng.Next(10, 5000)
-                //    };
-
-                //    produtoRepository.Inserir(produto1);
-                //}
-
-                return Created($"/api/produto/{produto.Codigo}", produto);
-
+                if (result.TemErros)
+                {
+                    return new BadRequestObjectResult(result);
+                }
+                else
+                {
+                    return Created($"/api/produto/{produto.Codigo}", produto);
+                }
             }
             catch (Exception e)
             {
@@ -100,10 +97,16 @@ namespace LSWebApiDapperMySql.Controllers
         {
             try
             {
-                produtoRepository.Atualizar(produto);
+                var result = produtoService.Atualizar(produto);
 
-
-                return Accepted($"/api/produto/{produto.Codigo}", produto);
+                if (result.TemErros)
+                {
+                    return new BadRequestObjectResult(result);
+                }
+                else
+                {
+                    return Accepted($"/api/produto/{produto.Codigo}", produto);
+                }
 
             }
             catch (Exception e)
@@ -111,6 +114,16 @@ namespace LSWebApiDapperMySql.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Erro {e.Message}");
             }
         }
+
+        //public IActionResult Result(Result result)
+        //{
+        //    if(result.TemErros)
+        //    {
+        //        return new BadRequestObjectResult(result);
+        //    }
+
+        //    return Ok();
+        //}
 
         private static readonly string[] Marcas = new[]     {
             "Dell", "Aoc", "HP", "LG", "Samsung", "Motorola", "Renault", "GM", "Toyota", "Honda"

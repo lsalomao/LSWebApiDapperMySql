@@ -28,7 +28,7 @@ namespace LSWebApiDapperMySql.Domain.Repository
             {
                 try
                 {
-                    connection.Execute(query, new {CODIGO = produto.Codigo, NOME = produto.Nome, MARCA = produto.Marca, PRECO = produto.Preco }, commandType: CommandType.StoredProcedure, transaction: Transaction);
+                    connection.Execute(query, new {_CODIGO = produto.Codigo, _NOME = produto.Nome, _MARCA = produto.Marca, _PRECO = produto.Preco }, commandType: CommandType.StoredProcedure, transaction: Transaction);
                     Transaction.Commit();
                 }
                 catch (Exception e)
@@ -67,6 +67,13 @@ namespace LSWebApiDapperMySql.Domain.Repository
             var query = "OBTER_PRODUTOS_POR_NOME";
 
             return connection.Query<Produto>(query, new { NOME = nome }, commandType: CommandType.StoredProcedure);
+        }
+
+        public Produto GetByProdutosNomeCerto(string nome)
+        {
+            var query = "OBTER_PRODUTOS_POR_NOME_CERTO";
+
+            return connection.QueryFirstOrDefault<Produto>(query, new { NOME = nome }, commandType: CommandType.StoredProcedure);
         }
 
         public void Inserir(Produto produto)

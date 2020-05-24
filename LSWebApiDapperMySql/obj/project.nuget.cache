@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Tp069aphIWXa/E5auTNF/B9+AKvt3X2bwUudj16bS2taUycL505P8U1fmJrUyTHQ8Tqsb8RNgFXxQOnjcGwgJA==",
+  "dgSpecHash": "RYOiAtHWPzpCyqXZJI8wqE8QmCgt1e0/Epsd3i9FoUpPwrnZxgxnJhQqrDE3H9Qp/6gKFTuvlhJeE99rJo9TPw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\SalomaoDev\\LSWebApiDapperMySql\\LSWebApiDapperMySql\\LSWebApiDapperMySql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fadami07\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\Fadami07\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
@@ -46,6 +47,7 @@
     "C:\\Users\\Fadami07\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
+    "C:\\Users\\Fadami07\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\Fadami07\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

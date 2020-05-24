@@ -13,17 +13,13 @@ services:
       - data_base:/var/lib/mysql
 
     environment:
-      MYSQL_ROOT_PASSWORD: "&HCUna!i^6GE"
+      MYSQL_ROOT_PASSWORD: "123456"
       MYSQL_DATABASE: "Loja"
-    ports:
-      - "3306:3306"
     networks:
       - databases
-
-
+      
 volumes:  
   data_base:
-
 
 networks: 
     databases:

@@ -1,4 +1,5 @@
 using LSWebApiDapperMySql.Domain.Repository;
+using LSWebApiDapperMySql.Domain.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,6 +33,7 @@ namespace LSWebApiDapperMySql
 
             services.AddSingleton(new MySqlConnection(AppSettingsConfiguration.DataBase.ConnectionStringMySql));
             services.AddSingleton<IProdutoRepository, ProdutoRepository>();
+            services.AddSingleton<IProdutoServices, ProdutoServices>();
             services.AddControllers();
         }
 
@@ -50,7 +52,7 @@ namespace LSWebApiDapperMySql
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Minha API .Net Core, Dapper e MySql");               
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Minha API .Net Core, Dapper e MySql");
 
             });
 

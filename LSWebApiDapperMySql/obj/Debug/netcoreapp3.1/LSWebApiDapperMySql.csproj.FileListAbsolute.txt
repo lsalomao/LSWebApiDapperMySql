@@ -11,7 +11,6 @@ D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcore
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\LSWebApiDapperMySql.exe
-D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.csprojAssemblyReference.cache
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.AssemblyInfoInputs.cache
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.AssemblyInfo.cs
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.RazorTargetAssemblyInfo.cache
@@ -42,9 +41,11 @@ D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcore
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\LSWebApiDapperMySql.runtimeconfig.dev.json
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\LSWebApiDapperMySql.dll
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\LSWebApiDapperMySql.pdb
-D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.csproj.CoreCompileInputs.cache
-D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.MvcApplicationPartsAssemblyInfo.cs
-D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.MvcApplicationPartsAssemblyInfo.cache
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.dll
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.pdb
 D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.genruntimeconfig.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.csproj.CoreCompileInputs.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.MvcApplicationPartsAssemblyInfo.cs
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\SalomaoDev\LSWebApiDapperMySql\LSWebApiDapperMySql\obj\Debug\netcoreapp3.1\LSWebApiDapperMySql.csprojAssemblyReference.cache

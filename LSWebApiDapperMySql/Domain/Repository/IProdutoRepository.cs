@@ -11,6 +11,7 @@ namespace LSWebApiDapperMySql.Domain.Repository
         IEnumerable<Produto> GetAll();
         IEnumerable<Produto> GetByProdutosMarca(string marca);
         IEnumerable<Produto> GetByProdutosNome(string nome);
+        Produto GetByProdutosNomeCerto(string nome);
         void Inserir(Produto produto);
         void Atualizar(Produto produto);
         void Excluir(Produto produto);
